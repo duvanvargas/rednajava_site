@@ -198,7 +198,7 @@ nav a#pull {
 	display:inline-block;
 }
 .banner-info p{
-	color: #CCCCCC;
+	color: #FFFFFF;
 	font-weight:400;
 	font-size: 1.3em;
 	line-height: 1.7em;
@@ -542,23 +542,23 @@ a.leran-more:hover{
 	top: 100%;
 }
 .img1{
-	background:url(../images/time-line-img.jpg) no-repeat;
+	background:url(../images/Java.png) no-repeat;
 	background-size: 100% 100%;
 }
 .img2{
-	background:url(../images/time-line-img1.jpg) no-repeat;
+	background:url(../images/logo_red.png) no-repeat;
 	background-size: 100% 100%;
 }
 .img3{
-	background:url(../images/time-line-img2.jpg) no-repeat;
+	background:url(../images/logo_red.png) no-repeat;
 	background-size: 100% 100%;
 }
 .img4{
-	background:url(../images/time-line-img4.jpg) no-repeat;
+	background:url(../images/logo_red.png) no-repeat;
 	background-size: 100% 100%;
 }
 .img5{
-	background:url(../images/time-line-img5.png) no-repeat #7CC576;
+	background:url(../images/logo_red.png) no-repeat;
 	background-size: 100% 100%;
 }
 .about-time-line > li .cbp_tmlabel {
@@ -1400,4 +1400,8 @@ a.leran-more:hover{
 		width: 100%;
 		outline:none;
 	}
+}
+
+.click-modal{
+	cursor: pointer;
 }
