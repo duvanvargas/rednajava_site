@@ -7,13 +7,40 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 	<head>
+
 		<meta charset="UTF-8">
 		<title>RedNaJava | Red Nacional de Investigación en Java</title>
 		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SHIELD - Free Bootstrap 3 Theme">
+    <meta name="author" content="Carlos Alvarez - Alvarez.is - blacktie.co">
+    <link rel="apple-touch-icon" sizes="57x57" href="ico/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="ico/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="ico/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="ico/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="ico/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="ico/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="ico/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="ico/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="ico/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="ico/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="ico/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="ico/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 		 <!-- Custom Theme files -->
+		<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+		
+
+		
 		 <!-- animated-css -->
 		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
 		<script src="js/wow.min.js"></script>
@@ -156,7 +183,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="col-md-8 expertice-left-grid wow fadeInLeft" data-wow-delay="0.4s">
 						<div class="expertise-head">
 							<h3>Eventos</h3>
-							<p>Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt consequat sem cure  digni ssim. </p>
+
+
+							<p>En RedNajava realizamos actividades mensuales donde colaboradores externos y expertos nos aportan su conocimiento de tecnologia atraves de charlas,capacitaciones o talleres que promueven la actualizacion constante.. </p>
 						</div>
 						<div class="expertise-left-inner-grids">
 							<div class="e-left-inner-grid">
@@ -207,13 +236,60 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<a class="leran-more" href="htt://www.meetup.com/es/Bogota-JVM-Meetup/">Más Eventos</a>
 					</div>
-					<div class="col-md-4 expertice-right-grid wow fadeInRight" data-wow-delay="0.4s">
-						
-					</div>
+					  <div class="col-md-4 expertice-right-grid wow fadeInRight" data-wow-delay="0.4s"></div>
+
+					
 					<div class="clearfix"> </div> 
 				</div>
 			</div>
 			<!-- Other Expertise -->
+			<div id="port" class="expertise hidden-xs hidden-sm">
+				<div class="expertice-grids">
+					<div class="col-md-12 expertice-left-grid wow fadeInLeft " data-wow-delay="0.4s">
+						<div class="expertise-head" style="height: 500px">
+							<h3 style="text-align: center">Fotos -  Eventos</h3>
+							<div class="your-class" style="    
+								width: 90%;
+							    margin: 0px auto;
+							    padding: 0px 50px;
+							    transform: scale(1);
+							    position: relative;
+							    bottom: 0px">
+						    <img src="images/evento1/evento1.png">
+						    <img src="images/evento1/evento2.png">
+						    <img src="images/evento1/evento3.png">
+						    <img src="images/evento1/evento1.JPG">
+						    <img src="images/evento1/evento2.JPG">
+						    <img src="images/evento1/evento3.JPG">
+						    <img src="images/evento1/evento4.JPG">
+						    <img src="images/evento1/evento5.JPG">
+						    <img src="images/evento1/evento6.JPG">
+						  </div>
+						</div>
+						
+						
+
+						  <script type="text/javascript">
+						    $(document).ready(function(){
+						      $('.your-class').slick({
+						          infinite: true,
+						          slidesToShow: 3,
+						          slidesToScroll: 3,
+						          autoplaySpeed: 1000,
+						          autoplay:true,
+								  dots: false,
+								  arrows:false,
+							      adaptiveHeight: true
+						      });
+						    });
+						  </script>
+					</div>
+					  
+
+					
+					<div class="clearfix"> </div> 
+				</div>
+			</div>
 			<!-- portfolio -->
 			<div id="ofertas" class="portfolio">
 				<div class="portfolio-top">
@@ -341,29 +417,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li>
 							<div class="cbp_tmicon img1"> </div>
 							<div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">
-								<h2>Agosto 2016 <br>1ra Certificacion</h2>
-								<p>Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
+								<h2>Noviembre 2016 <br>1ra Certificacion</h2>
+								<p>Despúes de un proceso de aprendizaje de nuevas tecnologias se abre un espacio para que los estudiantes que deseen validar su conocimiento se certifiquen por medio de examenes de certificacion apoyados y validados internacionalmente para el crecimiento inttegro del profesional.</p>
 							</div>
 					</li>
 					<li>
 							<div class="cbp_tmicon1 img2"> </div>
 							<div class="cbp_tmlabel cbp_tmlabel1 wow fadeInRight" data-wow-delay="0.4s">
-								<h2>January 2011 Facing Startup Battles </h2>
-								<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+								<h2>Capacitaciones y Eventos </h2>
+								<p>En RedNaJava usted puede asistir a las nuevas jornadas de capacitación presenciales. El objetivo es que todos nuestros usuarios se preparen fácilmente y sin ningún costo adicional, en el manejo de nuevas tecnologias.</p>
 							</div>
 					</li><br />
 					<li>
 							<div class="cbp_tmicon2 img3"> </div>
 							<div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">
-								<h2>December 2012 Enter The Dark Days </h2>
-								<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni.</p>
+								<h2>Primeros meses </h2>
+								<p>Se comienzan a generar grupos de apoyo y charlas sin costo adicional de exportos en temas de comunicaciones,redes,software , emprendimiento y demas temas que se necesitan para complementar a los profesionales del mañana.</p>
 							</div>
 					</li>
 					<li>
 							<div class="cbp_tmicon3 img4"> </div>
 							<div class="cbp_tmlabel cbp_tmlabel1 wow fadeInRight" data-wow-delay="0.4s">
-								<h2>January 2013 Our Triumph </h2>
-								<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean.</p>
+								<h2>Nacimiento </h2>
+								<p>Todo nacio de un deseo de distribuir y generar conocimiento atraves de tecnologias de punta para generar soluciones y ayudar a los estudiantes docentes o profesionales a fortalecerce más en el area de desarrollo de software. </p>
 							</div>
 					</li>
 					<li>
@@ -385,9 +461,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="tm-head-grids">
 							<div class="tm-head-grid wow fadeInLeft" data-wow-delay="0.4s">
-								<img src="images/team-member1.jpg" alt="">
-								<h4>Angela Rodriguez</h4>
-								<h5>Contadora</h5>
+								<img src="images/angela.jpeg" alt="">
+								<h4>Ángela Pinilla</h4>
+								<h5>Asistente de dirección</h5>
 								<ul class="top-social-icons">
 									<li><a class="twitter" href="#"> </a></li>
 									<li><a class="facebook" href="#"> </a></li>
@@ -396,7 +472,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</ul>
 							</div>
 							<div class="tm-head-grid wow fadeInUp" data-wow-delay="0.4s">
-								<img src="images/team-member2.jpg" alt="">
+								<img src="images/mauricio.jpeg" alt="">
 								<h4>Mauricio Alonso</h4>
 								<h5>Director</h5>
 								<ul class="top-social-icons">
@@ -409,7 +485,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<div class="tm-head-grid wow fadeInRight" data-wow-delay="0.4s">
 								<img src="images/duvan.jpg" alt="" height="200" width="200">
 								<h4>Duvan Vargas</h4>
-								<h5>Desarrollador</h5>
+								<h5>Java Developer</h5>
 								<ul class="top-social-icons">
 									<li><a class="twitter" href="#"> </a></li>
 									<li><a class="facebook" href="#"> </a></li>
@@ -417,7 +493,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<div class="clear"> </div>
 								</ul>
 							</div>
-							<div class="tm-head-grid wow fadeInRight" data-wow-delay="0.4s">
+							<!--<div class="tm-head-grid wow fadeInRight" data-wow-delay="0.4s">
 								<img src="images/team-member3.jpg" alt="">
 								<h4>Samuel Garzón</h4>
 								<h5>Desarrollador</h5>
@@ -427,7 +503,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<li><a class="pin" href="#"> </a></li>
 									<div class="clear"> </div>
 								</ul>
-							</div>
+							</div>-->
 							<div class="clearfix"> </div>
 						</div>
 						<p class="team-info">Los logros de una organización son los resultados del esfuerzo combinado de cada individuo.</p>
@@ -471,6 +547,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</form>
 						</div>
 					</div>
+					<div class="clearfix"> </div>
+					<div class="clearfix"> </div>
+					<div class="clearfix"> </div>
 					<div class="clearfix"> </div>
 				</div>
 				<!-- copy-right -->
@@ -524,6 +603,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
   </div>
 </div>
+
+<style type="text/css">
+	.slick-track{
+		height: 500px; 		
+		cursor: w-resize;
+	}
+</style>
 	</body>
 </html>
 
